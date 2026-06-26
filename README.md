@@ -6,7 +6,7 @@ Craftetory is a web development project focused on exploring modern web technolo
 - HTML
 - CSS
 - JavaScript
-- [এখানে অন্য কোনো টেকনোলজি ব্যবহার করে থাকলে তা যোগ করুন]
+
 
 ## 🚀 Key Features
 - Clean and responsive user interface.
