@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftory | Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header (same as other pages) -->
+    <header>
+        <h2>Craftory</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+            <a href="cart.html" class="cart-badge">
+                Cart (<span id="cart-count">0</span>)
+            </a>
+        </nav>
+    </header>
+
+    <!-- Cart Hero -->
+    <section class="cart-hero">
+        <h1>Your Cart</h1>
+        <p>Review your favourite handmade pieces before you place an order.</p>
+    </section>
+
+    <!-- Cart Summary -->
+    <section class="cart-section">
+        <div class="cart-layout">
+            <div class="cart-card">
+                <h2>Cart overview</h2>
+                <p id="cart-message" class="cart-message">
+                    Loading your cart...
+                </p>
+
+                <a href="product.html" class="btn-outline">
+                    Continue shopping
+                </a>
+            </div>
+
+            <div class="cart-note">
+                <h3>Why Craftory?</h3>
+                <p>
+                    Every item is made in small batches with time, care and love.
+                    No rush, no mass production – just thoughtful creations for your space.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Craftory. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
